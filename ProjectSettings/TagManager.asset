@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - keyboardDisplay
+  - systemManager
+  - Pin
+  - roll1
+  - roll2
+  - score
+  - roll3
+  - DefaultBall
+  - CustomizedBall
+  - PickedBall
+  - ThrownBall
+  - Ball
+  - keyBoard
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - LaunchPad
+  - Water
+  - UI
+  - button
+  - quickMenu
+  - ground
+  - ball
+  - keyBoard
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

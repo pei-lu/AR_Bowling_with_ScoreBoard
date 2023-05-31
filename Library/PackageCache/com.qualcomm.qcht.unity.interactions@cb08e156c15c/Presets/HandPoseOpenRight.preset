@@ -1,0 +1,943 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HandPoseOpenRight
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: a106efaac73a469f8bfe72d6d1ab65a4, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: space
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Scale.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Scale.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Scale.z
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Root.IsRoot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Root.IsThumb
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Root.UpdatePosition
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Root.UpdateRotation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Root.UpdateScale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Root.Position.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Root.Position.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Root.Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Root.Rotation.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Root.Rotation.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Root.Rotation.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Root.Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Root.Scale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Palm.IsRoot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Palm.IsThumb
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Palm.UpdatePosition
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Palm.UpdateRotation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Palm.UpdateScale
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Palm.Position.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Palm.Position.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Palm.Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Palm.Rotation.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Palm.Rotation.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Palm.Rotation.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Palm.Rotation.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Palm.Scale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.BaseData.IsRoot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.BaseData.IsThumb
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.BaseData.UpdatePosition
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.BaseData.UpdateRotation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.BaseData.UpdateScale
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.BaseData.Position.x
+    value: 0.027
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.BaseData.Position.y
+    value: 0.0077
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.BaseData.Position.z
+    value: 0.0057
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.BaseData.Rotation.x
+    value: -0.149271
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.BaseData.Rotation.y
+    value: 0.7251576
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.BaseData.Rotation.z
+    value: 0.2500491
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.BaseData.Rotation.w
+    value: 0.6239712
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.BaseData.Scale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.MiddleData.IsRoot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.MiddleData.IsThumb
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.MiddleData.UpdatePosition
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.MiddleData.UpdateRotation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.MiddleData.UpdateScale
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.MiddleData.Position.x
+    value: 0.0321
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.MiddleData.Position.y
+    value: 0.0326
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.MiddleData.Position.z
+    value: 0.0003
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.MiddleData.Rotation.x
+    value: 0.038553942
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.MiddleData.Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.MiddleData.Rotation.z
+    value: 0.08609056
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.MiddleData.Rotation.w
+    value: 0.99554104
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.MiddleData.Scale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.TopData.IsRoot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.TopData.IsThumb
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.TopData.UpdatePosition
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.TopData.UpdateRotation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.TopData.UpdateScale
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.TopData.Position.x
+    value: 0.0112
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.TopData.Position.y
+    value: 0.0295
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.TopData.Position.z
+    value: -0.0007
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.TopData.Rotation.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.TopData.Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.TopData.Rotation.z
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.TopData.Rotation.w
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Thumb.TopData.Scale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.BaseData.IsRoot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.BaseData.IsThumb
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.BaseData.UpdatePosition
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.BaseData.UpdateRotation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.BaseData.UpdateScale
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.BaseData.Position.x
+    value: -0.031022035
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.BaseData.Position.y
+    value: 0.08196372
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.BaseData.Position.z
+    value: -0.0014663505
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.BaseData.Rotation.x
+    value: 0.04151625
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.BaseData.Rotation.y
+    value: 0.004600321
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.BaseData.Rotation.z
+    value: 0.09743836
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.BaseData.Rotation.w
+    value: 0.9943646
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.BaseData.Scale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.MiddleData.IsRoot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.MiddleData.IsThumb
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.MiddleData.UpdatePosition
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.MiddleData.UpdateRotation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.MiddleData.UpdateScale
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.MiddleData.Position.x
+    value: 0.0000054621696
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.MiddleData.Position.y
+    value: 0.032876022
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.MiddleData.Position.z
+    value: -0.000005376339
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.MiddleData.Rotation.x
+    value: 0.00045673814
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.MiddleData.Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.MiddleData.Rotation.z
+    value: -0.0000025642373
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.MiddleData.Rotation.w
+    value: 0.99999994
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.MiddleData.Scale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.TopData.IsRoot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.TopData.IsThumb
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.TopData.UpdatePosition
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.TopData.UpdateRotation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.TopData.UpdateScale
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.TopData.Position.x
+    value: -0.000058219437
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.TopData.Position.y
+    value: 0.02255871
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.TopData.Position.z
+    value: 0.00019150258
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.TopData.Rotation.x
+    value: 0.00073242193
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.TopData.Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.TopData.Rotation.z
+    value: -0.00000008311925
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.TopData.Rotation.w
+    value: 0.99999976
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Index.TopData.Scale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.BaseData.IsRoot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.BaseData.IsThumb
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.BaseData.UpdatePosition
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.BaseData.UpdateRotation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.BaseData.UpdateScale
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.BaseData.Position.x
+    value: -0.0074042343
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.BaseData.Position.y
+    value: 0.082628116
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.BaseData.Position.z
+    value: -0.0020145322
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.BaseData.Rotation.x
+    value: 0.030166337
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.BaseData.Rotation.y
+    value: 1.0772399e-10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.BaseData.Rotation.z
+    value: 0.04379695
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.BaseData.Rotation.w
+    value: 0.9985849
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.BaseData.Scale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.MiddleData.IsRoot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.MiddleData.IsThumb
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.MiddleData.UpdatePosition
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.MiddleData.UpdateRotation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.MiddleData.UpdateScale
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.MiddleData.Position.x
+    value: -0.00008160651
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.MiddleData.Position.y
+    value: 0.038285848
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.MiddleData.Position.z
+    value: -0.00000064775344
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.MiddleData.Rotation.x
+    value: 0.0015631643
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.MiddleData.Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.MiddleData.Rotation.z
+    value: 0.000017543452
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.MiddleData.Rotation.w
+    value: 0.9999988
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.MiddleData.Scale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.TopData.IsRoot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.TopData.IsThumb
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.TopData.UpdatePosition
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.TopData.UpdateRotation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.TopData.UpdateScale
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.TopData.Position.x
+    value: -0.00015294374
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.TopData.Position.y
+    value: 0.026081342
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.TopData.Position.z
+    value: 0.00028195992
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.TopData.Rotation.x
+    value: 0.001859293
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.TopData.Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.TopData.Rotation.z
+    value: 0.00001005425
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.TopData.Rotation.w
+    value: 0.9999983
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Middle.TopData.Scale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.BaseData.IsRoot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.BaseData.IsThumb
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.BaseData.UpdatePosition
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.BaseData.UpdateRotation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.BaseData.UpdateScale
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.BaseData.Position.x
+    value: 0.012931771
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.BaseData.Position.y
+    value: 0.07734295
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.BaseData.Position.z
+    value: -0.0013260873
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.BaseData.Rotation.x
+    value: 0.029467914
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.BaseData.Rotation.y
+    value: -0.0027473117
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.BaseData.Rotation.z
+    value: -0.067636386
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.BaseData.Rotation.w
+    value: 0.997271
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.BaseData.Scale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.MiddleData.IsRoot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.MiddleData.IsThumb
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.MiddleData.UpdatePosition
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.MiddleData.UpdateRotation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.MiddleData.UpdateScale
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.MiddleData.Position.x
+    value: -0.00020923854
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.MiddleData.Position.y
+    value: 0.03309975
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.MiddleData.Position.z
+    value: -0.0010975375
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.MiddleData.Rotation.x
+    value: 0.031490345
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.MiddleData.Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.MiddleData.Rotation.z
+    value: 0.000028577842
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.MiddleData.Rotation.w
+    value: 0.9995041
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.MiddleData.Scale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.TopData.IsRoot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.TopData.IsThumb
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.TopData.UpdatePosition
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.TopData.UpdateRotation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.TopData.UpdateScale
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.TopData.Position.x
+    value: -0.00032330275
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.TopData.Position.y
+    value: 0.025772456
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.TopData.Position.z
+    value: -0.00031963317
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.TopData.Rotation.x
+    value: 0.03149933
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.TopData.Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.TopData.Rotation.z
+    value: 0.00002300031
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.TopData.Rotation.w
+    value: 0.9995038
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ring.TopData.Scale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.BaseData.IsRoot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.BaseData.IsThumb
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.BaseData.UpdatePosition
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.BaseData.UpdateRotation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.BaseData.UpdateScale
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.BaseData.Position.x
+    value: 0.030585911
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.BaseData.Position.y
+    value: 0.065964766
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.BaseData.Position.z
+    value: -0.0013049131
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.BaseData.Rotation.x
+    value: 0.12815402
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.BaseData.Rotation.y
+    value: -0.028963508
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.BaseData.Rotation.z
+    value: -0.21727757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.BaseData.Rotation.w
+    value: 0.96722704
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.BaseData.Scale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.MiddleData.IsRoot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.MiddleData.IsThumb
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.MiddleData.UpdatePosition
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.MiddleData.UpdateRotation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.MiddleData.UpdateScale
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.MiddleData.Position.x
+    value: -0.00010937453
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.MiddleData.Position.y
+    value: 0.027333906
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.MiddleData.Position.z
+    value: -0.00042800608
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.MiddleData.Rotation.x
+    value: 0.0694109
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.MiddleData.Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.MiddleData.Rotation.z
+    value: -0.000003250469
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.MiddleData.Rotation.w
+    value: 0.9975882
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.MiddleData.Scale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.TopData.IsRoot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.TopData.IsThumb
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.TopData.UpdatePosition
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.TopData.UpdateRotation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.TopData.UpdateScale
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.TopData.Position.x
+    value: 0.00009834289
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.TopData.Position.y
+    value: 0.01851777
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.TopData.Position.z
+    value: -0.000027188213
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.TopData.Rotation.x
+    value: 0.06941305
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.TopData.Rotation.y
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.TopData.Rotation.z
+    value: -0.0000051344136
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.TopData.Rotation.w
+    value: 0.99758804
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pinky.TopData.Scale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HandPoseRefLeft
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HandPoseRefRight
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ghost
+    value: 
+    objectReference: {fileID: 11400000, guid: 8d2d02faccbfe477988877950cccbffa, type: 2}
+  m_ExcludedProperties: []

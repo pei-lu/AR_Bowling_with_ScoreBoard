@@ -1,0 +1,22 @@
+{
+    "name": "SnapdragonOpenXRLoader",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "!SPACES"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.qualcomm.snapdragon.spaces",
+            "expression": "",
+            "define": "SPACES"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,411 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ProximalInteractor
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: d2bee2c0a56b4bd298f2d13725092167, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftTrackedAction.m_Name
+    value: Left Tracked
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftTrackedAction.m_Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftTrackedAction.m_ExpectedControlType
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftTrackedAction.m_Id
+    value: 14ab9e56-13d4-457c-9349-2e9acac7a940
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftTrackedAction.m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftTrackedAction.m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftTrackedAction.m_SingletonActionBindings.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftTrackedAction.m_SingletonActionBindings.Array.data[0].m_Name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftTrackedAction.m_SingletonActionBindings.Array.data[0].m_Id
+    value: 605b5eee-00d9-4ef8-a830-016280aa7d82
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftTrackedAction.m_SingletonActionBindings.Array.data[0].m_Path
+    value: <HandTrackingDevice>{LeftHand}/isTracked
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftTrackedAction.m_SingletonActionBindings.Array.data[0].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftTrackedAction.m_SingletonActionBindings.Array.data[0].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftTrackedAction.m_SingletonActionBindings.Array.data[0].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftTrackedAction.m_SingletonActionBindings.Array.data[0].m_Action
+    value: Left Tracked
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftTrackedAction.m_SingletonActionBindings.Array.data[0].m_Flags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftTrackedAction.m_Flags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightTrackedAction.m_Name
+    value: Right Tracked
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightTrackedAction.m_Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightTrackedAction.m_ExpectedControlType
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightTrackedAction.m_Id
+    value: f6076bde-1ec9-485e-99d5-78cff83ae59e
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightTrackedAction.m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightTrackedAction.m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightTrackedAction.m_SingletonActionBindings.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightTrackedAction.m_SingletonActionBindings.Array.data[0].m_Name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightTrackedAction.m_SingletonActionBindings.Array.data[0].m_Id
+    value: a9d82e30-35b0-4548-925d-b49978ba02f1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightTrackedAction.m_SingletonActionBindings.Array.data[0].m_Path
+    value: <HandTrackingDevice>{RightHand}/isTracked
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightTrackedAction.m_SingletonActionBindings.Array.data[0].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightTrackedAction.m_SingletonActionBindings.Array.data[0].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightTrackedAction.m_SingletonActionBindings.Array.data[0].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightTrackedAction.m_SingletonActionBindings.Array.data[0].m_Action
+    value: Right Tracked
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightTrackedAction.m_SingletonActionBindings.Array.data[0].m_Flags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightTrackedAction.m_Flags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftSelectAction.m_Name
+    value: Left Select
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftSelectAction.m_Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftSelectAction.m_ExpectedControlType
+    value: Button
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftSelectAction.m_Id
+    value: fa001066-5dac-47a5-92e2-d8a8715930b5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftSelectAction.m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftSelectAction.m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftSelectAction.m_SingletonActionBindings.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftSelectAction.m_SingletonActionBindings.Array.data[0].m_Name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftSelectAction.m_SingletonActionBindings.Array.data[0].m_Id
+    value: 70230783-107b-433f-bea0-fecdb944768c
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftSelectAction.m_SingletonActionBindings.Array.data[0].m_Path
+    value: <HandTrackingDevice>{LeftHand}/triggerPressed
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftSelectAction.m_SingletonActionBindings.Array.data[0].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftSelectAction.m_SingletonActionBindings.Array.data[0].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftSelectAction.m_SingletonActionBindings.Array.data[0].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftSelectAction.m_SingletonActionBindings.Array.data[0].m_Action
+    value: Left Select
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftSelectAction.m_SingletonActionBindings.Array.data[0].m_Flags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftSelectAction.m_Flags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightSelectAction.m_Name
+    value: Right Select
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightSelectAction.m_Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightSelectAction.m_ExpectedControlType
+    value: Button
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightSelectAction.m_Id
+    value: d30a8d27-cd5e-4289-a230-6de07933c231
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightSelectAction.m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightSelectAction.m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightSelectAction.m_SingletonActionBindings.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightSelectAction.m_SingletonActionBindings.Array.data[0].m_Name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightSelectAction.m_SingletonActionBindings.Array.data[0].m_Id
+    value: 6903046e-3332-4f62-8041-016be6d616e3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightSelectAction.m_SingletonActionBindings.Array.data[0].m_Path
+    value: <HandTrackingDevice>{RightHand}/triggerPressed
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightSelectAction.m_SingletonActionBindings.Array.data[0].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightSelectAction.m_SingletonActionBindings.Array.data[0].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightSelectAction.m_SingletonActionBindings.Array.data[0].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightSelectAction.m_SingletonActionBindings.Array.data[0].m_Action
+    value: Right Select
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightSelectAction.m_SingletonActionBindings.Array.data[0].m_Flags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightSelectAction.m_Flags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftGrabAction.m_Name
+    value: Left Grab
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftGrabAction.m_Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftGrabAction.m_ExpectedControlType
+    value: Button
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftGrabAction.m_Id
+    value: d361de35-1263-463c-a06e-4156193f8022
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftGrabAction.m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftGrabAction.m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftGrabAction.m_SingletonActionBindings.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftGrabAction.m_SingletonActionBindings.Array.data[0].m_Name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftGrabAction.m_SingletonActionBindings.Array.data[0].m_Id
+    value: e43e8f24-bd37-41dd-b07b-cca11e6f554f
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftGrabAction.m_SingletonActionBindings.Array.data[0].m_Path
+    value: <HandTrackingDevice>{LeftHand}/gripPressed
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftGrabAction.m_SingletonActionBindings.Array.data[0].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftGrabAction.m_SingletonActionBindings.Array.data[0].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftGrabAction.m_SingletonActionBindings.Array.data[0].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftGrabAction.m_SingletonActionBindings.Array.data[0].m_Action
+    value: Left Grab
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftGrabAction.m_SingletonActionBindings.Array.data[0].m_Flags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftGrabAction.m_Flags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightGrabAction.m_Name
+    value: Right Grab
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightGrabAction.m_Type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightGrabAction.m_ExpectedControlType
+    value: Button
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightGrabAction.m_Id
+    value: 228901b9-cbf3-4ba8-9135-3d1586119ac5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightGrabAction.m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightGrabAction.m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightGrabAction.m_SingletonActionBindings.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightGrabAction.m_SingletonActionBindings.Array.data[0].m_Name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightGrabAction.m_SingletonActionBindings.Array.data[0].m_Id
+    value: 217ae15e-e739-4578-9fc4-418e3e0ccfa8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightGrabAction.m_SingletonActionBindings.Array.data[0].m_Path
+    value: <HandTrackingDevice>{RightHand}/gripPressed
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightGrabAction.m_SingletonActionBindings.Array.data[0].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightGrabAction.m_SingletonActionBindings.Array.data[0].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightGrabAction.m_SingletonActionBindings.Array.data[0].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightGrabAction.m_SingletonActionBindings.Array.data[0].m_Action
+    value: Right Grab
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightGrabAction.m_SingletonActionBindings.Array.data[0].m_Flags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightGrabAction.m_Flags
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.qualcomm.qcht.unity.interactions": {
+      "tarball": {
+        "hash": "cb08e156c15c",
+        "mtime": 1682471022000,
+        "size": 9602313,
+        "localPath": "G:\\ucsd\\2023 spring\\cse 165\\project3\\sdks\\Snapdragon_Spaces_SDK_0_13_0_for_Unity\\Unity Package\\com.qualcomm.qcht.unity.interactions-4.0.0-pre.11.tgz"
+      }
+    },
+    "com.qualcomm.snapdragon.spaces": {
+      "tarball": {
+        "hash": "1096df8a8a85",
+        "mtime": 1683097376000,
+        "size": 9415089,
+        "localPath": "G:\\ucsd\\2023 spring\\cse 165\\project3\\sdks\\Snapdragon_Spaces_SDK_0_13_0_for_Unity\\Unity Package\\SnapdragonSpaces_Package_0_13_0.tgz"
+      }
+    }
+  }
+}

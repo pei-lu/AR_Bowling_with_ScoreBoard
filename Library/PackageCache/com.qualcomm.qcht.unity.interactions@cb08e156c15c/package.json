@@ -1,0 +1,29 @@
+{
+  "name": "com.qualcomm.qcht.unity.interactions",
+  "displayName": "QCHT Unity Interactions",
+  "version": "4.0.0-pre.11",
+  "description": "QCHT Interactions Package",
+  "author": {
+    "name": "Qualcomm Technologies, Inc"
+  },
+  "keywords": [
+    "Qualcomm",
+    "Unity",
+    "Interactions",
+    "QCHT"
+  ],
+  "homepage": "",
+  "resolutionStrategy": "highestMinor",
+  "samples": [
+    {
+      "displayName": "QCHT Interaction Samples",
+      "description": "Samples on how to create hand tracking interaction experiences.",
+      "path": "Samples~/QCHT Interaction Samples"
+    }
+  ],
+  "dependencies": {
+    "com.unity.inputsystem": "1.0.2",
+    "com.unity.xr.interaction.toolkit": "2.3.0",
+    "com.unity.xr.management": "2.3.0-pre.1"
+  }
+}
